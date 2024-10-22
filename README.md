@@ -6,6 +6,9 @@ such that $X^u_T \sim p_{\mathrm{target}}$. Then one can sample from the prior $
 
 <p align="center"><img src="assets/evolution.png" width="95%"></p>
 
+## Run OMR experiments
+    python scripts/main.py target=experiments solver=basic_dis loss.method=lv
+
 
 ## Installation
 
