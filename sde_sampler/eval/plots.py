@@ -169,7 +169,7 @@ def plot_evolution(
     ts: torch.Tensor,
     xs: torch.Tensor,
     dim: int = 0,
-    ntraj: int = 50,
+    ntraj: int = 5000,
     domain: torch.Tensor | None = None,
     decimals: int = 6,
 ) -> go.Figure:

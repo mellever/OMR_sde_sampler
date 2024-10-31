@@ -9,13 +9,13 @@ seed: 1
 device:
 
 # Eval and checkpointing
-eval_marginal_dims: [0, 1]
+eval_marginal_dims: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #Change this to number of dimensions
 eval_sample_losses:
   sinkhorn:
     _target_: sde_sampler.eval.sinkhorn.Sinkhorn
-out_dir:
+out_dir: "/home/melle/Documents/OMR_data"
 ckpt_file: null
 store_last_ckpt: True
-upload_ckpt_to_wandb: last # Choose between True / False / "last"
+upload_ckpt_to_wandb: False # Choose between True / False / "last"
 plot_results: True
 num_threads:

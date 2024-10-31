@@ -1,4 +1,2 @@
 _target_: sde_sampler.distr.gauss.IsotropicGauss
-dim: 1
-loc: 3.
-scale: 1.
+dim: 2
